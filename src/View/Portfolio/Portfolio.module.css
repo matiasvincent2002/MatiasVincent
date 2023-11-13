@@ -1,0 +1,92 @@
+.portfolio{
+  display: flex;
+  width: 80%;
+  height: 100%;
+  
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 3em;
+}
+.card{
+  width: 400px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border: 5px solid #333;
+}
+.imgContainer{
+  display: flex;
+  flex: 1;
+  align-items: start;
+  width: auto;
+  height: auto;
+}
+.projectImg{
+  object-fit: contain;
+  width: 100%;
+}
+.projectInfo{
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  flex: 2;
+  border-top: 2px solid #333;
+  align-items: center;
+  justify-content: space-around;
+}
+.projectTitle{
+
+  font-size: 2em;
+  text-align: left;
+  width: 100%;
+}
+.projectDescription{
+  font: 18px;
+  width: 100%;
+  margin: 0 auto;
+  font-weight: 500;
+  line-height: 1.2;
+  
+  
+}
+.skillsList {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+
+.skillItem {
+  list-style: none;
+  border: 1px solid #333;
+  padding: 5px 10px;
+  margin: 1px;
+  transition: transform 0.3s ease-in-out;
+  background: #7464c7;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.skillItem:hover {
+  transform: scale(1.2);
+}
+.projectLinks{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.projectLink{
+  font-size: 18px;
+  text-decoration: none;
+  color :#7464c7;
+  transition: transform 0.3s ease-in-out;
+  font-weight: 600;
+}
+
+.projectLink:hover{
+  transform: scale(1.2);
+  
+}

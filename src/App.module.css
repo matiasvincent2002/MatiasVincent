@@ -1,0 +1,13 @@
+*{
+
+  margin: 0px;
+  padding: 0px;
+
+
+}
+.app-container{
+  min-height: 100vh;
+  display: flex;
+  background: #423970;
+  justify-content: end;
+}

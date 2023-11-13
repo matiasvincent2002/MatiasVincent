@@ -1,0 +1,276 @@
+/* Estilos para el contenedor principal */
+.home-container {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background: #423970;
+}
+
+/* Estilos para el contenedor secundario dentro de home-container */
+.home-container-childs {
+  width: 100%;
+  height: 100%;
+}
+
+/* Estilos para el elemento con clase 'child-info' */
+.child-info {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.container-img {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  flex: 1;
+}
+
+.img {
+  overflow: hidden;
+  border-radius: 100%;
+  width: 500px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  /* Cinco capas de sombras hacia la derecha de color violeta con opacidad */
+  box-shadow:
+    10px 0 0 rgba(127, 109, 215, 0.6),
+    20px 0 0 rgba(116, 100, 199, 0.4),
+    30px 0 0 rgba(117, 100, 199, 0.2),
+    40px 0 0 rgba(127, 109, 215, 0.1);
+}
+
+.img img {
+  object-fit: cover;
+}
+
+/* Estilos para un elemento con clase 'hello' */
+.hello {
+  font-weight: 600;
+}
+
+/* Estilos para el elemento con clase 'child-text' */
+.child-text {
+  flex: 1;
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  text-align: left;
+  flex-direction: column;
+}
+
+/* Estilos para los párrafos dentro de 'child-text' */
+.child-text p {
+  font-size: 20px;
+  color: #5cf4ff;
+  font-weight: 800;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Estilos para el título 'h1' dentro de 'child-text' */
+.child-text h1 {
+  font-size: 3rem;
+  font-weight: lighter;
+}
+
+/* Estilos para el texto del nombre con clase 'child-text-name' */
+.child-text-name {
+  color: #d374e3;
+  font-weight: 700;
+}
+
+.downloaded-message {
+  background-color: #4CAF50; /* Color de fondo verde */
+  color: white; /* Color del texto blanco */
+  padding: 10px; /* Espacio interior alrededor del mensaje */
+  border-radius: 5px; /* Bordes redondeados */
+  text-align: center; /* Centrar el texto horizontalmente */
+  margin-top: 10px; /* Espacio superior para separar del contenido superior */
+  font-size: 30px;
+  width: 300px;
+  margin: 10px auto;
+}
+
+/* Estilos para el botón con clase 'child-btn-resumen' */
+.child-btn-resumen {
+  border: none;
+  border-radius: 50px;
+  padding: 14px;
+  background: #7464c7;
+  border: 1px solid #333;
+  text-align: center;
+  text-decoration-line: none;
+  color: white;
+  font-weight: 400;
+  font-size: 30px;
+  margin-top: 30px;
+  width: 150px;
+  font-family: monospace;
+}
+
+/* Estilos para el contenedor de botones */
+.child-container-bnt {
+  margin: 0 auto;
+  display: flex;
+}
+
+.btn {
+  border: none;
+  background: none;
+  font-size: 40px;
+  margin: 30px 20px 0px 20px;
+  padding: 8px;
+  border-radius: 8px;
+  transition: .3s all;
+  color: #d374e3;
+}
+
+.btn:hover {
+  transition: .3s all;
+  scale: 1.2;
+}
+
+/* Estilos para un elemento con clase 'home-section-container' */
+.home-section-container {
+  height: 100%;
+}
+
+/* Estilos para el contenedor de habilidades */
+.skills-container {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #d9d9d9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Estilos para el contenedor de información */
+.container-info {
+  display: flex;
+  width: 70%;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+/* Estilos generales */
+/* Estilos para pantallas pequeñas (max-width: 768px) */
+@media only screen and (max-width: 1366px){
+  .img{
+    width: 300px;
+    height: 300px;
+  }
+  .child-info{
+    flex-direction: row;
+    align-items: center;
+    flex: auto;
+
+  }
+  .child-text p {
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .child-text h1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .child-info{
+    flex-direction: column;
+    align-items: center;
+  }
+  .container-img{
+    display: none;
+  }
+  .child-text p {
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .child-text h1 {
+    font-size: 2.5rem;
+  }
+}
+/* Estilos para pantallas extra pequeñas (max-width: 576px) */
+@media (max-width: 576px) {
+  .img {
+    width: 200px;
+    height: 200px;
+  }
+  .img img{
+    object-fit: cover;
+    width: 100%;
+  }
+  .child-text p {
+    font-size: 0.8rem;
+  }
+
+  .child-text h1 {
+    font-size: 2rem;
+  }
+  .child-text{
+    
+   
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    flex-direction: column;
+  }
+  .container-img{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    
+  }
+  .child-btn-resumen {
+    padding: 10px;
+    font-size: 24px;
+  }
+
+  .btn {
+    font-size: 30px;
+  }
+}
+
+/* Estilos para pantallas muy pequeñas (max-width: 400px) */
+@media (max-width: 400px) {
+  .container-img{
+    flex: 1;
+  }
+.img{
+  width: 300px;
+  height: 300px;
+}
+  .child-text p {
+    font-size: 14px;
+  }
+
+  .child-text h1 {
+    font-size: 24px;
+  }
+  .child-container-bnt{
+    width: 80%;
+  }
+  .child-btn-resumen {
+    padding: 8px;
+    font-size: 20px;
+  }
+
+  .btn {
+    font-size: 24px;
+  }
+}

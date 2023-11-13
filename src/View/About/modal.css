@@ -1,0 +1,17 @@
+.modal {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f4f4f4; /* Cambia el color de fondo del modal */
+    color: #333; /* Cambia el color del texto del modal */
+    max-width: 80%; /* Cambia el ancho máximo del modal */
+    margin: 0 auto;
+    /* Centra el modal horizontalmente */
+    border: 1px solid #ccc; /* Agrega un borde al modal */
+    padding: 20px; /* Agrega relleno al modal */
+}
+.modal img{
+    margin: 0 auto;
+    object-fit: cover;
+    max-height: 90vh;
+}
