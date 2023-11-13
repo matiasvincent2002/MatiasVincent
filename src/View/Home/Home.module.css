@@ -59,7 +59,7 @@
 /* Estilos para el elemento con clase 'child-text' */
 .child-text {
   flex: 1;
-  margin: 30px;
+  margin: 40px;
   display: flex;
   justify-content: center;
   align-items: left;
