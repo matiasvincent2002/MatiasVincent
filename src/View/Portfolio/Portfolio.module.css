@@ -8,24 +8,35 @@
   justify-content: center;
   margin: 3em;
 }
-.card{
-  width: 400px;
+.card {
+  min-width: 400px;
   height: 500px;
   display: flex;
   flex-direction: column;
-  background-color: #fff;
+  background: #fff;
   border: 5px solid #333;
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ajusta los valores según tus preferencias */
 }
+
 .imgContainer{
   display: flex;
   flex: 1;
   align-items: start;
   width: auto;
-  height: auto;
+  height: 200px;
+
+ 
 }
 .projectImg{
   object-fit: contain;
   width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
 }
 .projectInfo{
   display: flex;
@@ -35,6 +46,13 @@
   border-top: 2px solid #333;
   align-items: center;
   justify-content: space-around;
+  position: absolute;
+  z-index: 100;
+  bottom: 0%;
+  left: 0;
+  background: #fff;
+  width: 360px;
+  height: 200px;
 }
 .projectTitle{
 
@@ -72,6 +90,7 @@
 
 .skillItem:hover {
   transform: scale(1.2);
+  cursor: default;
 }
 .projectLinks{
   display: flex;

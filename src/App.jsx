@@ -14,9 +14,9 @@ const location = useLocation(); // Obtén la ubicación actual
       <Navbar location={location} /> {/* Pasa la ubicación como prop a Navbar */}
      
       <Routes>
-        <Route path="/home" element={<Home />} />
-        <Route path='/home/about' element={<About />} />
-        <Route path='/home/portfolio' element={<Portfolio/>}/>
+        <Route path="MatiasVincent/" element={<Home />} />
+        <Route path='MatiasVincent/about' element={<About />} />
+        <Route path='MatiasVincent/portfolio' element={<Portfolio/>}/>
       </Routes>
     </div>
   );

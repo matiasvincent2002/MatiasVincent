@@ -29,18 +29,18 @@ const NavBar = () => {
       
       
         <div className={style['navbar-item']}>
-          <Link to="/home">
+          <Link to="MatiasVincent/">
             <button>
               <FontAwesomeIcon icon={faHome} />
             </button>
           </Link>
-          <Link to="/home/portfolio">
+          <Link to="MatiasVincent/portfolio">
             <button>
               <FontAwesomeIcon icon={faFolder} />
             </button>
           </Link>
         
-          <Link to="/home/about">
+          <Link to="MatiasVincent/about">
           <button>
             <FontAwesomeIcon icon={faUser} />
           </button>
