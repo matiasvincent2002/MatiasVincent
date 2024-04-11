@@ -2,3 +2,6 @@
   display: flex;
   min-height: 100vh;
 }
+:root{
+  font-family: 'Times New Roman', Times, serif;
+}
