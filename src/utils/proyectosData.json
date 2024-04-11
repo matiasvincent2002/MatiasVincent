@@ -1,0 +1,31 @@
+
+[
+    {
+      "id": 1,
+      "title": "Foodier",
+      "description": "Foodier: Redefiniendo la Experiencia Gastronómica y Contribuyendo a un Mundo Sostenible",
+      "image": "src/assets/foodie.jpg",
+      "skills": ["JavaScript", "React", "CSS", "HTML", "Sequelize", "Express.js"],
+      "demoLink": "https://foodier.onrender.com",
+      "githubRepo": ""
+    },
+    {
+      "id": 2,
+      "title": "Todo-List",
+      "description": "Lista de tarea para todo los Usos.",
+      "image": "src/assets/todoList.png",
+      "skills": ["JavaScript", "React", "CSS", "HTML"],
+      "demoLink": "https://matiasvincent2002.github.io/TodoList/",
+      "githubRepo": ""
+    },
+    {
+      "id": 3,
+      "title": "Widget-Clima",
+      "description": "Una app para saber el pronostico en todo el mundo",
+      "image": "src/assets/widget-clima.png",
+      "skills": ["JavaScript", "React", "CSS", "HTML"],
+      "demoLink": "https://matiasvincent2002.github.io/Widget-Clima/",
+      "githubRepo": ""
+    }
+  ]
+  
