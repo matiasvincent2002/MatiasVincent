@@ -1,7 +1,9 @@
-.app-container{
+.app-container {
   display: flex;
   min-height: 100vh;
 }
-:root{
-  font-family: 'Times New Roman', Times, serif;
+
+:root {
+  font-family: 'Montserrat', sans-serif;
+  
 }
