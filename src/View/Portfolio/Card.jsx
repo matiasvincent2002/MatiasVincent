@@ -6,11 +6,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 const Card = ({ project }) => {
-
+const img = project.image;
   return (
     <div className={style.card}>
       <div className={style.imgContainer}>
-        <img src={project.image} alt={project.title}/>
+        <img src={img} alt={project.title}/>
       </div>
       <div className={style.projectInfo}>
         <div>
