@@ -35,13 +35,23 @@ padding: 1rem;
   width: 70%;
   align-items: center;
   justify-content: space-between;
-
+  
   padding: 2rem;
 }
 .projectInfo>div:not(.projectLinks){
   display: flex;
   flex-direction: column;
   width: 100%;
+}
+.projectInfo>div>h2{
+  font-size: 2rem;
+  font-family: 'Monserrat',sans-serif;
+  color: #d374e3;
+}
+.projectInfo>div>p{
+  color: #5cf4ff;
+  font-family: 'Monserrat',sans-serif;
+  font-size: 14px;
 }
 .projectInfo>ul{
   display: flex;
@@ -51,9 +61,11 @@ padding: 1rem;
   flex-wrap: wrap;
 }
 .projectInfo>ul>li{
-  border: 1px solid #fff;
+  border: 1px solid #d374e3;
   padding: .3rem;
   transition: all .2s ease-in-out;
+  
+  
 }
 .projectInfo>ul>li:hover{
   transform: scale(1.1);
@@ -68,12 +80,12 @@ padding: 1rem;
 }
 .projectLinks>a{
   margin: 0  auto;
-  color: #fff;
+  color: #5cf4ff;
   transition: all .2s ease-in-out;
   text-decoration-line: none;
   font-weight: bold;
 }
 .projectLinks>a:hover{
   transform: scale(1.2);
-
+  color: #d374e3;
 }
