@@ -48,7 +48,7 @@
     "id": 6,
     "title": "Miha",
     "description": "Academia Maritima Argentina",
-    "image": "miha.png",
+    "image": "assets/miha.png",
     "skills": ["JavaScript", "React", "CSS", "HTML","Next","Redux","PHP"],
     "demoLink": "",
     "githubRepo": ""
