@@ -1,0 +1,54 @@
+{
+  "helloMessage": {
+    "es": "¡Hola!",
+    "en": "Hello!"
+  },
+  "nameIntro": {
+    "es": "Soy",
+    "en": "I'm"
+  },
+  "developerDescription": {
+    "es": "Soy un desarrollador web full-stack dedicado. Mi experiencia abarca tanto el desarrollo front-end como el back-end.",
+    "en": "I'm a dedicated full-stack web developer. My experience extends to both front-end and back-end development."
+  },
+  "resumeButtonText": {
+    "es": "Resumen",
+    "en": "Resume"
+  },
+  "sectionTitle": {
+    "es": "Sobre Mi",
+    "en": "About Me"
+  },
+  "intro": {
+    "es": "¡Hola! Soy Matias Vincent, un apasionado programador full stack con una sólida formación en programación.",
+    "en": "Hello! I'm Matias Vincent, a passionate full stack programmer with a solid programming background."
+  },
+  "skillsTitle": {
+    "es": "Habilidades",
+    "en": "Skills"
+  },
+  "educationTitle": {
+    "es": "Educación y Formación",
+    "en": "Education and Training"
+  },
+  "educationText": {
+    "es": "Mi viaje en el mundo de la programación comenzó en la secundaria técnica, la E.E.S.T N°2, donde me gradué como Técnico en Programación. Continué mi educación realizando un riguroso bootcamp de desarrollo web full stack llamado 'SoyHenry,' donde adquirí un profundo conocimiento de diversas tecnologías, incluyendo React, JavaScript, Node.js, CSS3, HTML5, Sequelize, Express.js, Bootstrap, Tailwind y más. Este programa de capacitación requirió más de 800 horas de dedicación y me otorgó el título de Programador Full Stack.",
+    "en": "My journey in the programming world started in technical high school, E.E.S.T N°2, where I graduated as a Programming Technician. I continued my education by completing a rigorous full stack web development bootcamp called 'SoyHenry,' where I gained in-depth knowledge of various technologies, including React, JavaScript, Node.js, CSS3, HTML5, Sequelize, Express.js, Bootstrap, Tailwind, and more. This training program required over 800 hours of dedication and awarded me the title of Full Stack Developer."
+  },
+  "viewDiplomaButton": {
+    "es": "Ver Diploma",
+    "en": "View Diploma"
+  },
+  "closeButton": {
+    "es": "Cerrar",
+    "en": "Close"
+  },
+  "contactTitle": {
+    "es": "Contacto",
+    "en": "Contact"
+  },
+  "phoneNumber": {
+    "es": "Teléfono: +54 2224515942",
+    "en": "Phone: +54  2224515942"
+  }
+}
