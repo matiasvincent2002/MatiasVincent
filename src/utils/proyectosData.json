@@ -31,7 +31,7 @@
       "id": 4,
       "title": "CasaMega",
       "description": "Importante empresa de venta de respuesto automovilisticos",
-      "image": "assets/casamega.png,",
+      "image": "assets/casamega.png",
       "skills": ["JavaScript", "React", "CSS", "HTML","Redux"],
       "demoLink": "",
       "githubRepo": ""

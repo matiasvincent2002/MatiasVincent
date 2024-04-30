@@ -99,8 +99,10 @@
 
 .img {
   overflow: hidden;
-  border-radius: 100%;
-  
+  border-radius: 50%;
+  width: 25vw;
+  height: 25vw;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -114,7 +116,7 @@
 }
 
 .img img {
-  object-fit: contain;
+  object-fit: cover;
   width: 100%;
   height: auto;
 }
@@ -235,54 +237,12 @@
 
 /* Estilos generales */
 /* Estilos para pantallas pequeñas (max-width: 768px) */
-@media only screen and (max-width: 1366px){
-  .img{
-    width: 300px;
-    height: 300px;
-  }
-  .child-info{
-    flex-direction: row;
-    align-items: center;
-    flex: auto;
 
-  }
-  .child-text p {
-    font-size: 14px;
-    font-weight: 500;
-  }
 
-  .child-text h1 {
-    font-size: 2.5rem;
-  }
-}
-
-@media (max-width: 1200px) {
-  .child-info{
-    flex-direction: column;
-    align-items: center;
-  }
-  .container-img{
-    display: none;
-  }
-  .child-text p {
-    font-size: 14px;
-    font-weight: 500;
-  }
-
-  .child-text h1 {
-    font-size: 2.5rem;
-  }
-}
 /* Estilos para pantallas extra pequeñas (max-width: 576px) */
 @media (max-width: 576px) {
-  .img {
-    width: 200px;
-    height: 200px;
-  }
-  .img img{
-    object-fit: cover;
-    width: 100%;
-  }
+  
+
   .child-text p {
     font-size: 0.8rem;
   }
@@ -315,14 +275,11 @@
 }
 
 /* Estilos para pantallas muy pequeñas (max-width: 400px) */
-@media (max-width: 400px) {
+@media (max-width: 808px) {
   .container-img{
     flex: 1;
   }
-.img{
-  width: 300px;
-  height: 300px;
-}
+
   .child-text p {
     font-size: 14px;
   }
