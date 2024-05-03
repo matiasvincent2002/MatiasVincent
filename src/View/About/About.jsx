@@ -63,7 +63,7 @@
                   <span>
                     <FaPhone size={30} />
                   </span>
-                  Teléfono: +54 1136183553
+                  Teléfono: +54 9 2224515942
                 </p>
                 <p className={style['contact-icon']}>
                   <span>
